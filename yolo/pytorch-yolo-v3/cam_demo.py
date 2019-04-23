@@ -41,17 +41,37 @@ def prep_image(img, inp_dim):
     return img_, orig_im, dim
 
 def write(x, img):
+    # Identify all objects
+    if (class_filter == 'all') or (class_filter == ''):
+        c1 = tuple(x[1:3].int())
+        c2 = tuple(x[3:5].int())
+        cls = int(x[-1])
+        label = "{0}".format(classes[cls])
+        color = random.choice(colors)
+        cv2.rectangle(img, c1, c2,color, 1)
+        t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
+        c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
+        cv2.rectangle(img, c1, c2,color, -1)
+        cv2.putText(img, label, (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+
+        return img
+
     c1 = tuple(x[1:3].int())
     c2 = tuple(x[3:5].int())
     cls = int(x[-1])
     label = "{0}".format(classes[cls])
+    ## Filter all objects that do not match class_filter
+    if label != class_filter:
+        return
     color = random.choice(colors)
     cv2.rectangle(img, c1, c2,color, 1)
     t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
     c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
     cv2.rectangle(img, c1, c2,color, -1)
-    cv2.putText(img, label, (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1);
+    cv2.putText(img, label, (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+
     return img
+    
 
 def arg_parse():
     """
@@ -71,6 +91,12 @@ def arg_parse():
 
 
 if __name__ == '__main__':
+
+    # Code for taking in input for filtering
+    class_filter = input("Enter a object for filtering,(i.e. person, chair, laptop) or Enter 'All' to identify all objects. \n")
+    class_filter = class_filter.lower()
+    ###########################################
+
     cfgfile = "cfg/yolov3.cfg"
     weightsfile = "yolov3.weights"
     num_classes = 80
@@ -103,7 +129,7 @@ if __name__ == '__main__':
     
     videofile = 'video.avi'
     
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     
     assert cap.isOpened(), 'Cannot capture source'
     
