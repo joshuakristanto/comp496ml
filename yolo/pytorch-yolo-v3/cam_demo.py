@@ -49,10 +49,10 @@ def write(x, img):
         label = "{0}".format(classes[cls])
         color = random.choice(colors)
         cv2.rectangle(img, c1, c2,color, 1)
-        t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
+        t_size = cv2.getTextSize(label+" " + str(int(args.confidence*100))+ "%", cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
         c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
         cv2.rectangle(img, c1, c2,color, -1)
-        cv2.putText(img, label, (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+        cv2.putText(img, label +" "+ str(int(args.confidence *100)) +"%", (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
 
         return img
 
@@ -65,10 +65,10 @@ def write(x, img):
         return
     color = random.choice(colors)
     cv2.rectangle(img, c1, c2,color, 1)
-    t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
+    t_size = cv2.getTextSize(label+" " + str(int(args.confidence*100))+ "%", cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
     c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
     cv2.rectangle(img, c1, c2,color, -1)
-    cv2.putText(img, label, (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+    cv2.putText(img, label +" " + str(int(args.confidence*100))+ "%", (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
 
     return img
     
@@ -97,6 +97,8 @@ if __name__ == '__main__':
     cameraPermission = cameraPermission.lower()
 
     if cameraPermission == "y":
+        #confidInput = input("PLease enter a confidence desired in decimal form (.##)")
+       # confidInput = confidInput
         cameraChoice = input("Please Select Camera choice 0 = Internet Camera and 1 = external camera. \n")
         cameraChoice = int(cameraChoice)
         class_filter = input("Enter a object for filtering,(i.e. person, chair, laptop) or Enter 'All' to identify all objects. \n")
@@ -108,6 +110,7 @@ if __name__ == '__main__':
         num_classes = 80
 
         args = arg_parse()
+        #args.confidence = confidInput
         confidence = float(args.confidence)
         nms_thesh = float(args.nms_thresh)
         start = 0
@@ -120,6 +123,7 @@ if __name__ == '__main__':
         bbox_attrs = 5 + num_classes
     
         model = Darknet(cfgfile)
+
         model.load_weights(weightsfile)
     
         model.net_info["height"] = args.reso
@@ -159,10 +163,12 @@ if __name__ == '__main__':
                 output = model(Variable(img), CUDA)
                 output = write_results(output, confidence, num_classes, nms = True, nms_conf = nms_thesh)
 
+
                 if type(output) == int:
                     frames += 1
                     print("FPS of the video is {:5.2f}".format( frames / (time.time() - start)))
                     cv2.imshow("frame", orig_im)
+                    #print(confidence)
                     key = cv2.waitKey(1)
                     if key & 0xFF == ord('q'):
                         break
@@ -189,6 +195,7 @@ if __name__ == '__main__':
                     break
                 frames += 1
                 print("FPS of the video is {:5.2f}".format( frames / (time.time() - start)))
+                #print(confidence)
 
             
             else:
