@@ -1,0 +1,1208 @@
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581781.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581781.jpg predicted in  0.230 seconds
+Objects Detected:    banana banana banana banana banana banana banana banana banana apple
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 2.876
+Detection (1 images)     : 0.382
+Output Processing        : 0.000
+Drawing Boxes            : 0.077
+Average time_per_img     : 3.347
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581615.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581615.jpg predicted in  0.075 seconds
+Objects Detected:    toilet
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.076
+Detection (1 images)     : 0.087
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.168
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581482.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581482.jpg predicted in  0.072 seconds
+Objects Detected:    clock
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.089
+Detection (1 images)     : 0.087
+Output Processing        : 0.000
+Drawing Boxes            : 0.002
+Average time_per_img     : 1.177
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>000000581357.jpg
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581357.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581357.jpg predicted in  0.087 seconds
+Objects Detected:    person person person person skateboard
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.095
+Detection (1 images)     : 0.117
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.221
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images  --det det --reso 320
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581317.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581317.jpg predicted in  0.076 seconds
+Objects Detected:    person
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.103
+Detection (1 images)     : 0.089
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.196
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581206.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581206.jpg predicted in  0.088 seconds
+Objects Detected:    hot dog hot dog
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.036
+Detection (1 images)     : 0.104
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.150
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581100.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581100.jpg predicted in  0.092 seconds
+Objects Detected:    horse giraffe giraffe
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.085
+Detection (1 images)     : 0.120
+Output Processing        : 0.000
+Drawing Boxes            : 0.008
+Average time_per_img     : 1.213
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000581062.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000581062.jpg predicted in  0.087 seconds
+Objects Detected:    person skateboard
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.269
+Detection (1 images)     : 0.101
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.373
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580757.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580757.jpg predicted in  0.073 seconds
+Objects Detected:    fire hydrant
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.081
+Detection (1 images)     : 0.086
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.170
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580418.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580418.jpg predicted in  0.084 seconds
+Objects Detected:    car car cow cow cow
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.064
+Detection (1 images)     : 0.112
+Output Processing        : 0.000
+Drawing Boxes            : 0.008
+Average time_per_img     : 1.185
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580418.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580418.jpg predicted in  0.089 seconds
+Objects Detected:    car car cow cow cow
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.078
+Detection (1 images)     : 0.116
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.203
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>000000580410.jpg
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580410.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580410.jpg predicted in  0.105 seconds
+Objects Detected:    cat chair sofa book book book book book book
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.329
+Detection (1 images)     : 0.147
+Output Processing        : 0.000
+Drawing Boxes            : 0.016
+Average time_per_img     : 1.492
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580294.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580294.jpg predicted in  0.077 seconds
+Objects Detected:    person
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.066
+Detection (1 images)     : 0.091
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.161
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000580197.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000580197.jpg predicted in  0.128 seconds
+Objects Detected:    person person person tie
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.142
+Detection (1 images)     : 0.181
+Output Processing        : 0.000
+Drawing Boxes            : 0.018
+Average time_per_img     : 1.341
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579970.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579970.jpg predicted in  0.105 seconds
+Objects Detected:    chair sofa sofa tvmonitor
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.541
+Detection (1 images)     : 0.133
+Output Processing        : 0.000
+Drawing Boxes            : 0.011
+Average time_per_img     : 1.685
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>000000579902.jpg
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579902.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579902.jpg predicted in  0.092 seconds
+Objects Detected:    person car car motorbike
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.067
+Detection (1 images)     : 0.117
+Output Processing        : 0.000
+Drawing Boxes            : 0.007
+Average time_per_img     : 1.190
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579900.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579900.jpg predicted in  0.081 seconds
+Objects Detected:    broccoli pizza
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.113
+Detection (1 images)     : 0.095
+Output Processing        : 0.000
+Drawing Boxes            : 0.007
+Average time_per_img     : 1.214
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579893.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579893.jpg predicted in  0.079 seconds
+Objects Detected:    stop sign
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.099
+Detection (1 images)     : 0.092
+Output Processing        : 0.000
+Drawing Boxes            : 0.005
+Average time_per_img     : 1.196
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579818.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579818.jpg predicted in  0.102 seconds
+Objects Detected:    person train
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.111
+Detection (1 images)     : 0.131
+Output Processing        : 0.000
+Drawing Boxes            : 0.012
+Average time_per_img     : 1.255
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579655.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579655.jpg predicted in  0.129 seconds
+Objects Detected:    person cup cup cup cup cup cup cup cup cup cup cup bowl cell phone
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.262
+Detection (1 images)     : 0.186
+Output Processing        : 0.000
+Drawing Boxes            : 0.023
+Average time_per_img     : 1.471
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579635.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579635.jpg predicted in  0.080 seconds
+Objects Detected:    person boat surfboard
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.069
+Detection (1 images)     : 0.102
+Output Processing        : 0.000
+Drawing Boxes            : 0.007
+Average time_per_img     : 1.178
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579321.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579321.jpg predicted in  0.086 seconds
+Objects Detected:    person dog
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.633
+Detection (1 images)     : 0.103
+Output Processing        : 0.000
+Drawing Boxes            : 0.006
+Average time_per_img     : 1.741
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579307.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579307.jpg predicted in  0.101 seconds
+Objects Detected:    person person kite
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.486
+Detection (1 images)     : 0.123
+Output Processing        : 0.000
+Drawing Boxes            : 0.008
+Average time_per_img     : 1.618
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579158.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579158.jpg predicted in  0.089 seconds
+Objects Detected:    aeroplane suitcase suitcase suitcase suitcase
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.461
+Detection (1 images)     : 0.127
+Output Processing        : 0.000
+Drawing Boxes            : 0.012
+Average time_per_img     : 1.600
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579091.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579091.jpg predicted in  0.091 seconds
+Objects Detected:    broccoli
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.503
+Detection (1 images)     : 0.105
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.611
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000579070.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000579070.jpg predicted in  0.147 seconds
+Objects Detected:    person person person person person bottle cup cup cup cup cup cup cup cup cup cup cup chair diningtable
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.095
+Detection (1 images)     : 0.225
+Output Processing        : 0.000
+Drawing Boxes            : 0.031
+Average time_per_img     : 1.351
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578967.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578967.jpg predicted in  0.073 seconds
+Objects Detected:    train
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.069
+Detection (1 images)     : 0.089
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.162
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578922.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578922.jpg predicted in  0.089 seconds
+Objects Detected:    bottle cup cup pottedplant vase
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.095
+Detection (1 images)     : 0.125
+Output Processing        : 0.000
+Drawing Boxes            : 0.011
+Average time_per_img     : 1.231
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578871.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578871.jpg predicted in  0.112 seconds
+Objects Detected:    person spoon spoon bowl bowl bowl diningtable
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.233
+Detection (1 images)     : 0.154
+Output Processing        : 0.000
+Drawing Boxes            : 0.020
+Average time_per_img     : 1.407
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578792.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578792.jpg predicted in  0.139 seconds
+Objects Detected:    person motorbike
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.777
+Detection (1 images)     : 0.201
+Output Processing        : 0.000
+Drawing Boxes            : 0.013
+Average time_per_img     : 1.991
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578545.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578545.jpg predicted in  0.097 seconds
+Objects Detected:    person chair bed laptop
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.099
+Detection (1 images)     : 0.121
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.229
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578500.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578500.jpg predicted in  0.110 seconds
+Objects Detected:    chair chair chair sofa sofa pottedplant pottedplant vase vase
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.570
+Detection (1 images)     : 0.159
+Output Processing        : 0.000
+Drawing Boxes            : 0.016
+Average time_per_img     : 1.745
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578489.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578489.jpg predicted in  0.111 seconds
+Objects Detected:    person person person person person person bottle sofa remote
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.632
+Detection (1 images)     : 0.154
+Output Processing        : 0.000
+Drawing Boxes            : 0.016
+Average time_per_img     : 1.801
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578236.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578236.jpg predicted in  0.071 seconds
+Objects Detected:    sports ball
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.079
+Detection (1 images)     : 0.084
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.165
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000578093.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000578093.jpg predicted in  0.092 seconds
+Objects Detected:    train
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.743
+Detection (1 images)     : 0.112
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.860
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>000000577976.jpg
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577976.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577976.jpg predicted in  0.105 seconds
+Objects Detected:    car truck
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.156
+Detection (1 images)     : 0.123
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.283
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577959.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577959.jpg predicted in  0.086 seconds
+Objects Detected:    person kite
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.513
+Detection (1 images)     : 0.105
+Output Processing        : 0.000
+Drawing Boxes            : 0.005
+Average time_per_img     : 1.623
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577932.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577932.jpg predicted in  0.123 seconds
+Objects Detected:    person person person person person person person person bicycle car car car handbag handbag
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.526
+Detection (1 images)     : 0.191
+Output Processing        : 0.000
+Drawing Boxes            : 0.025
+Average time_per_img     : 1.743
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577864.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577864.jpg predicted in  0.095 seconds
+Objects Detected:    person person sports ball
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.524
+Detection (1 images)     : 0.119
+Output Processing        : 0.000
+Drawing Boxes            : 0.006
+Average time_per_img     : 1.650
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577862.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577862.jpg predicted in  0.086 seconds
+Objects Detected:    giraffe giraffe
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.477
+Detection (1 images)     : 0.106
+Output Processing        : 0.000
+Drawing Boxes            : 0.006
+Average time_per_img     : 1.589
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577735.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577735.jpg predicted in  0.113 seconds
+Objects Detected:    pottedplant vase
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.776
+Detection (1 images)     : 0.147
+Output Processing        : 0.000
+Drawing Boxes            : 0.011
+Average time_per_img     : 1.935
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577584.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577584.jpg predicted in  0.122 seconds
+Objects Detected:    bowl
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.563
+Detection (1 images)     : 0.155
+Output Processing        : 0.000
+Drawing Boxes            : 0.010
+Average time_per_img     : 1.727
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577539.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577539.jpg predicted in  0.090 seconds
+Objects Detected:    person bowl diningtable
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.706
+Detection (1 images)     : 0.112
+Output Processing        : 0.000
+Drawing Boxes            : 0.006
+Average time_per_img     : 1.825
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577182.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577182.jpg predicted in  0.124 seconds
+Objects Detected:    bench bench bench bird
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.087
+Detection (1 images)     : 0.174
+Output Processing        : 0.000
+Drawing Boxes            : 0.018
+Average time_per_img     : 1.280
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000577149.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000577149.jpg predicted in  0.136 seconds
+Objects Detected:    zebra zebra zebra zebra
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.600
+Detection (1 images)     : 0.168
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.777
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000576955.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000576955.jpg predicted in  0.139 seconds
+Objects Detected:    person person horse horse
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.182
+Detection (1 images)     : 0.197
+Output Processing        : 0.000
+Drawing Boxes            : 0.022
+Average time_per_img     : 1.402
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000576654.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000576654.jpg predicted in  0.087 seconds
+Objects Detected:    person person kite
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.495
+Detection (1 images)     : 0.111
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.616
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000576566.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000576566.jpg predicted in  0.102 seconds
+Objects Detected:    person skateboard
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.732
+Detection (1 images)     : 0.125
+Output Processing        : 0.000
+Drawing Boxes            : 0.007
+Average time_per_img     : 1.864
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000576052.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000576052.jpg predicted in  0.112 seconds
+Objects Detected:    person horse
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.163
+Detection (1 images)     : 0.149
+Output Processing        : 0.000
+Drawing Boxes            : 0.009
+Average time_per_img     : 1.322
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000576031.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000576031.jpg predicted in  0.106 seconds
+Objects Detected:    person person person
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.576
+Detection (1 images)     : 0.167
+Output Processing        : 0.000
+Drawing Boxes            : 0.014
+Average time_per_img     : 1.757
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575970.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575970.jpg predicted in  0.149 seconds
+Objects Detected:    cup cup cup cup bowl bowl bowl bowl bowl bowl bowl bowl bowl bowl bowl chair chair chair diningtable vase
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.093
+Detection (1 images)     : 0.230
+Output Processing        : 0.000
+Drawing Boxes            : 0.036
+Average time_per_img     : 1.359
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575815.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575815.jpg predicted in  0.093 seconds
+Objects Detected:    pizza
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.269
+Detection (1 images)     : 0.108
+Output Processing        : 0.000
+Drawing Boxes            : 0.003
+Average time_per_img     : 1.380
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575500.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575500.jpg predicted in  0.099 seconds
+Objects Detected:    banana
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.254
+Detection (1 images)     : 0.119
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.377
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575372.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575372.jpg predicted in  0.089 seconds
+Objects Detected:    traffic light traffic light traffic light traffic light
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.081
+Detection (1 images)     : 0.116
+Output Processing        : 0.000
+Drawing Boxes            : 0.008
+Average time_per_img     : 1.204
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575357.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575357.jpg predicted in  0.073 seconds
+Objects Detected:    dog
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.048
+Detection (1 images)     : 0.085
+Output Processing        : 0.000
+Drawing Boxes            : 0.002
+Average time_per_img     : 1.136
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575243.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575243.jpg predicted in  0.110 seconds
+Objects Detected:    person car car car traffic light traffic light umbrella
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.001
+Loading batch            : 1.387
+Detection (1 images)     : 0.148
+Output Processing        : 0.000
+Drawing Boxes            : 0.014
+Average time_per_img     : 1.550
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>python detect.py --images 000000575205.jpg --det det --reso 320
+Loading network.....
+Network successfully loaded
+C:\Users\mathe\Anaconda3\envs\yolov3\lib\site-packages\torch\nn\modules\upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+C:\yolo\pytorch-yolo-v3\000000575205.jpg predicted in  0.087 seconds
+Objects Detected:    aeroplane
+----------------------------------------------------------
+
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 1.424
+Detection (1 images)     : 0.107
+Output Processing        : 0.000
+Drawing Boxes            : 0.004
+Average time_per_img     : 1.536
+----------------------------------------------------------
+
+(yolov3) C:\yolo\pytorch-yolo-v3>

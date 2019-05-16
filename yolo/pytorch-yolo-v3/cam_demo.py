@@ -49,10 +49,10 @@ def write(x, img):
         label = "{0}".format(classes[cls])
         color = random.choice(colors)
         cv2.rectangle(img, c1, c2,color, 1)
-        t_size = cv2.getTextSize(label+" " + str(int(args.confidence*100))+ "%", cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
+        t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
         c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
         cv2.rectangle(img, c1, c2,color, -1)
-        cv2.putText(img, label +" "+ str(int(args.confidence *100)) +"%", (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+        cv2.putText(img, label , (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
 
         return img
 
@@ -65,10 +65,10 @@ def write(x, img):
         return
     color = random.choice(colors)
     cv2.rectangle(img, c1, c2,color, 1)
-    t_size = cv2.getTextSize(label+" " + str(int(args.confidence*100))+ "%", cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
+    t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_PLAIN, 1 , 1)[0]
     c2 = c1[0] + t_size[0] + 3, c1[1] + t_size[1] + 4
     cv2.rectangle(img, c1, c2,color, -1)
-    cv2.putText(img, label +" " + str(int(args.confidence*100))+ "%", (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
+    cv2.putText(img, label , (c1[0], c1[1] + t_size[1] + 4), cv2.FONT_HERSHEY_PLAIN, 1, [225,255,255], 1)
 
     return img
     
@@ -81,7 +81,7 @@ def arg_parse():
     
     
     parser = argparse.ArgumentParser(description='YOLO v3 Cam Demo')
-    parser.add_argument("--confidence", dest = "confidence", help = "Object Confidence to filter predictions", default = 0.25)
+    parser.add_argument("--confidence", dest = "confidence", help = "Object Confidence to filter predictions", default = 0.70)
     parser.add_argument("--nms_thresh", dest = "nms_thresh", help = "NMS Threshhold", default = 0.4)
     parser.add_argument("--reso", dest = 'reso', help = 
                         "Input resolution of the network. Increase to increase accuracy. Decrease to increase speed",
