@@ -17,5 +17,6 @@
 ## Yolo Algorithm Source
 * https://github.com/reigngt09/yolov3workflow
 * https://github.com/ayooshkathuria/pytorch-yolo-v3
+* https://github.com/pjreddie
 ## Works Cited
 * “YOLOv3 : An Incremtal Imrpovement” by  Redmon, Joseph, and Farhadi, Ali on 2018 on Jounral arXiv
